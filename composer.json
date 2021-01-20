@@ -15,7 +15,8 @@
   "require-dev": {
     "dxw/phar-install": "^1.1",
     "friendsofphp/php-cs-fixer": "^2.15",
-    "kahlan/kahlan": "^5.0"
+    "kahlan/kahlan": "^5.0",
+    "dxw/php-cs-fixer-config": "^1.0"
   },
   "require": {
     "dxw/iguana": "^1.1"

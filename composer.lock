@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "99fa14804e917253370649a504b8e520",
+    "content-hash": "1b09b775ea9caee96d430564092a2d4b",
     "packages": [
         {
             "name": "aura/autoload",
@@ -435,6 +435,44 @@
                 "source": "https://github.com/dxw/phar-install/tree/master"
             },
             "time": "2020-04-06T09:47:56+00:00"
+        },
+        {
+            "name": "dxw/php-cs-fixer-config",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dxw/php-cs-fixer-config.git",
+                "reference": "f273d0565e5b7a5ce9599885b2a324c5e2a38a6a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dxw/php-cs-fixer-config/zipball/f273d0565e5b7a5ce9599885b2a324c5e2a38a6a",
+                "reference": "f273d0565e5b7a5ce9599885b2a324c5e2a38a6a",
+                "shasum": ""
+            },
+            "require": {
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5",
+                "vimeo/psalm": "^3.12"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dxw\\PhpCsFixerConfig\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/dxw/php-cs-fixer-config/issues",
+                "source": "https://github.com/dxw/php-cs-fixer-config/tree/main"
+            },
+            "time": "2020-07-01T18:06:19+00:00"
         },
         {
             "name": "friendsofphp/php-cs-fixer",
